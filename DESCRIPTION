@@ -1,0 +1,14 @@
+Package: pValueRobust
+Type: Package
+Title: A Library for Robust Statistical Measures and the Evaluation of p-Values
+Version: 0.1.0
+Authors@R: person("Lloyd", "Courtenay", email = "ladc1995@gmail.com", role = c("aut", "cre"))
+Description: A small toolkit for the evaluation of 
+    p-Values in statistical analyses, and some functions for
+    the calculation of robust statistical measurements.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R(>= 2.10)
+RoxygenNote: 7.1.2
