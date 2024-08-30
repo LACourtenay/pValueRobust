@@ -7,8 +7,7 @@
 #' @param x A vector of numeric values
 #' @param q A set of two numeric values between 0 and 1 that define the confidence
 #' intervals the user wishes to calculate. If only one value is provided then this
-#' function simply returns the specified quantile. Default intervals are set to 5
-#' and 95\%
+#' function simply returns the specified quantile. Default intervals are set to 95\%
 #'
 #' @section Bibliography:
 #'
