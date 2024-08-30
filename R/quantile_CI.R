@@ -25,7 +25,7 @@
 #'
 #' @export
 
-quantile_CI <- function(x, q = c(0.05, 0.95)) {
+quantile_CI <- function(x, q = c(0.025, 0.975)) {
 
   if (!is.numeric(x)) {
     stop("Quantile values can only be calculated on univariate numeric distributions")
