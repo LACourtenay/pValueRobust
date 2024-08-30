@@ -4,7 +4,7 @@
 \alias{quantile_CI}
 \title{Interquantile Range and Confidence Intervals}
 \usage{
-quantile_CI(x, q = c(0.05, 0.95))
+quantile_CI(x, q = c(0.025, 0.975))
 }
 \arguments{
 \item{x}{A vector of numeric values}
